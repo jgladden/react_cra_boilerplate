@@ -1,0 +1,27 @@
+@import "../../../_assets/sass/variables";
+
+#login-modal {
+  padding: 50px;
+  background: #fff;
+  position: relative;
+  &__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  &__title {
+    @extend %title;
+    padding-bottom: 20px;
+  }
+  & > .error {
+    padding-bottom: 20px;
+  }
+  input,
+  button {
+    width: 240px;
+  }
+  button {
+    margin-top: 15px;
+  }
+}

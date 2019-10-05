@@ -1,0 +1,48 @@
+@import "_assets/sass/normalize";
+@import "_assets/sass/variables";
+@import "_assets/sass/fonts";
+
+body {
+  padding: 20px;
+}
+
+* {
+  @extend %body;
+  color: $primary;
+}
+
+*:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inValidField:focus,
+.inValidField:focus::placeholder {
+  color: $primary;
+}
+
+.inValidField,
+.inValidField::placeholder {
+  color: $red !important;
+}
+
+.error {
+  color: $red;
+}
+
+button {
+  text-transform: uppercase;
+  border: 1px solid $link;
+  color: $link;
+  padding: 13px;
+  cursor: pointer;
+}

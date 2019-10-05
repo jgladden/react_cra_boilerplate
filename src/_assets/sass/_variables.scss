@@ -1,0 +1,30 @@
+/*
+Z-INDEX
+*/
+
+$i: 1000;
+$primarynavZ: $i;
+$i: $i + 1;
+$modalrootZ: $i;
+$i: $i + 1; //always top zindex
+
+/*
+COLORS
+*/
+
+$primary: #000;
+$link: #1f72f2;
+$red: #f00;
+$borderColor: #ccc;
+
+/*
+TYPE
+*/
+
+%title {
+  font: 300 16px/15px "SFProDisplay";
+}
+
+%body {
+  font: 300 13px/20px "SFProDisplay";
+}

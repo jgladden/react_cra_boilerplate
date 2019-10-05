@@ -1,0 +1,11 @@
+@import "../../_assets/sass/variables";
+
+#reduxpage {
+  li {
+    padding-bottom: 20px;
+    & > p {
+      @extend %title;
+      padding-bottom: 5px;
+    }
+  }
+}
